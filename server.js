@@ -7,7 +7,7 @@ const propertyRoutes = require('./routes/propertyRoutes');
 const { sequelize } = require('./models');
 
 const app = express();
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT_NO || 7777;
 
 // CORS Configuration - Allow all origins
 app.use(cors({
